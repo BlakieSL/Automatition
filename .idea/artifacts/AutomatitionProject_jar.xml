@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AutomatitionProject:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AutomatitionProject_jar</output-path>
+    <root id="archive" name="AutomatitionProject.jar">
+      <element id="module-output" name="AutomatitionProject" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Java all/sikulixapi-2.0.5-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Java all/quartz-2.3.0-SNAPSHOT/lib/c3p0-0.9.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Java all/quartz-2.3.0-SNAPSHOT/lib/quartz-2.3.0-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Java all/quartz-2.3.0-SNAPSHOT/lib/slf4j-api-1.7.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Java all/quartz-2.3.0-SNAPSHOT/lib/quartz-jobs-2.3.0-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Java all/quartz-2.3.0-SNAPSHOT/lib/log4j-1.2.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Java all/quartz-2.3.0-SNAPSHOT/lib/slf4j-log4j12-1.7.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

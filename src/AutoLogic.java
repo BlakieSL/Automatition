@@ -14,8 +14,6 @@ public class AutoLogic {
         ImagePath.add("C:\\GitProjects\\AutomatitionDemo\\AutomatitionProject\\imgs");
         LocalTime time = LocalTime.now();
         try {
-            openClass("Test.png");
-            /*
             if(time.isAfter(LocalTime.of(10,22))
                     && time.isBefore(LocalTime.of(10,25))){
                 openClass("NAI.png");
@@ -32,8 +30,6 @@ public class AutoLogic {
             else{
                 openClass("Test.png");
             }
-
-             */
         } catch (FindFailed | InterruptedException e) {
             e.printStackTrace();
         }
@@ -65,11 +61,16 @@ public class AutoLogic {
         s.click(imgPath);
         s.click("Connect.png");
         Thread.sleep(1000);
-        s.click("Mute.png");
+
+        try {
+            s.click("Mute.png");
+        }catch (FindFailed e){
+            System.out.println("already muted");
+        }
         Thread.sleep(1000);
         s.click("ConnectNow.png");
 
-        Thread.sleep((5000));
+        Thread.sleep((4920000));
 
         s.click("Leave.png");
         try {
